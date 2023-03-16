@@ -1,0 +1,21 @@
+.books-container {
+    padding: 36px 52px;
+    width: 100vw;
+    box-sizing: border-box;
+
+    .title {
+        font-size: 2rem;
+        border-bottom: 0.1rem solid gray;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem 0;
+    }
+
+    .books {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin: auto;
+    }
+}

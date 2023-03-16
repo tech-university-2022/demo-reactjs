@@ -1,0 +1,38 @@
+.todo-form {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .left {
+        flex-grow: 1;
+    }
+
+    .right {
+        flex-grow: 2;
+        background-color: #9ad2f5;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .input {
+            width: 100%;
+            border: 1px solid #7d7d7d;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: white;
+            overflow-y: scroll;
+        }
+
+        .character-count {
+            margin-top: 10px;
+            text-align: right;
+            width: 100%;
+            color: white;
+        }
+    }
+}
